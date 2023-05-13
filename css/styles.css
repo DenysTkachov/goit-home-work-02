@@ -14,7 +14,7 @@ body {
   --background-color-main-contain: #2e2f42;
   --background-color: #ffffff;
   --text-logo-color: #4d5ae5;
-  --background-btn-kolor: #F4F4FD;
+  --background-btn-kolor: #f4f4fd;
 }
 
 .header-logo {
@@ -193,9 +193,10 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  color: var(--text-logo-color);
   cursor: pointer;
-  background-color: #404BBF;
+  background-color: var(--background-btn-kolor);
+  text-decoration: none; 
 }
 
 .portfolio-btn {
@@ -217,13 +218,8 @@ body {
 background-color: #404BBF; 
 }
 
-.portfolio-btn-first {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #ffffff;
-  cursor: pointer;
+.portfolio-list {
+  list-style: none;
 }
 
 .portfolio-title {
