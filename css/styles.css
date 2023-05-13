@@ -217,7 +217,7 @@ body {
   color: var(--text-logo-color);
   cursor: pointer;
   background-color: var(--background-btn-kolor);
-  
+
 }
 
 .portfolio-btn:hover,
@@ -242,4 +242,8 @@ background-color: #404BBF;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.portfolio.link {
+  text-decoration: none;
 }
