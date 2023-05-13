@@ -183,8 +183,6 @@ body {
 
 /* portfolio */
 
-
-
 /* .portfolio-btn-first {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -209,6 +207,7 @@ body {
 
 .portfolio-btn {
   font-family: "Roboto", sans-serif;
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -219,12 +218,25 @@ body {
   color: var(--text-logo-color);
   cursor: pointer;
   background-color: var(--background-btn-kolor);
+  text-decoration: none; 
 
+  /* font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--text-logo-color);
+  cursor: pointer;
+  background-color: var(--background-btn-kolor); */
 }
 
 .portfolio-btn:hover,
 .portfolio-btn:focus {
-background-color: #404BBF; 
+  background-color: #404bbf;
+  color: #FFFFFF;
 }
 
 .portfolio-list {
