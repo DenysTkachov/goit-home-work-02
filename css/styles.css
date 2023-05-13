@@ -1,11 +1,19 @@
 body {
   font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: var(--background-color);
 }
 .list {
   list-style: none;
 }
 .link {
   text-decoration: none;
+}
+
+:root {
+  --background-color-main-contain: #2e2f42;
+  --background-color: #ffffff;
+  --text-logo-color: #4d5ae5;
 }
 
 .header-logo {
@@ -15,7 +23,12 @@ body {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  color: #2e2f42;
+  color: var(--text-logo-color);
+  text-transform: uppercase;
+}
+
+.header-logo-span {
+  color: #2E2F42;
 }
 
 .header-link {
@@ -37,11 +50,16 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  font-style: normal;
 }
 
 .header-item-contakt:hover,
 .header-item-contakt:focus {
   color: #404bbf;
+}
+
+.main-contain {
+  background-color: var(--background-color-main-contain);
 }
 
 .main-contain-title {
@@ -61,6 +79,22 @@ body {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
+  background-color: #4d5ae5;
+}
+
+/* .main-contain-btn:hover {
+  background-color: #404BBF;
+} */
+.main-contain-btn:hover,
+.main-contain-btn:focus {
+  background-color: #404bbf;
+}
+
+.advantages-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .advantages-list {
@@ -82,6 +116,12 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.team {
+  background-color: #f4f4fd;
 }
 
 .team-title {
@@ -89,6 +129,12 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.team-item {
+  background-color: #FFFFFF;
 }
 
 .team-item-title {
@@ -105,6 +151,10 @@ body {
   color: #434455;
 }
 
+.footer {
+  background-color: var(--background-color-main-contain);
+}
+
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -112,7 +162,12 @@ body {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  color: #f4f4fd;
+  color: var(--text-logo-color);
+  text-transform: uppercase;  
+}
+
+.footer-logo-span {
+  color: #F4F4FD;
 }
 
 .footer-text {
