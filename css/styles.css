@@ -199,6 +199,12 @@ body {
   text-decoration: none; 
 }
 
+.portfolio-btn-first:hover,
+.portfolio-btn-first:focus {
+  color: #FFFFFF;
+  background-color: #404BBF;
+}
+
 .portfolio-btn {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -211,6 +217,7 @@ body {
   color: var(--text-logo-color);
   cursor: pointer;
   background-color: var(--background-btn-kolor);
+  
 }
 
 .portfolio-btn:hover,
