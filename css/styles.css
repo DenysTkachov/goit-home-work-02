@@ -183,11 +183,9 @@ body {
 
 /* portfolio */
 
-.portfolio-item-direction {
-  
-}
 
-.portfolio-btn-first {
+
+/* .portfolio-btn-first {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -207,7 +205,7 @@ body {
 .portfolio-btn-first:focus {
   color: #FFFFFF;
   background-color: #404BBF;
-}
+} */
 
 .portfolio-btn {
   font-family: "Roboto", sans-serif;
