@@ -1,6 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
-  color: #434455;
+  color: var(--color-main);
   background-color: var(--background-color);
 }
 .list {
@@ -15,7 +15,12 @@ body {
   --background-color: #ffffff;
   --text-logo-color: #4d5ae5;
   --background-btn-kolor: #f4f4fd;
+  --color-title: #2e2f42;
+  --color-main: #434455;
+  --color-link: #404bbf;
 }
+                    
+/* Page header */
 
 .header-logo {
   font-family: "Raleway", sans-serif;
@@ -29,7 +34,7 @@ body {
 }
 
 .header-logo-span {
-  color: #2e2f42;
+  color: var(--color-title);
 }
 
 .header-link {
@@ -37,12 +42,12 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--color-title);
 }
 
 .header-link:hover,
 .header-link:focus {
-  color: #404bbf;
+  color: var(--color-link);
 }
 
 .header-address {
@@ -54,12 +59,12 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--color-main);
 }
 
 .header-item-contakt:hover,
 .header-item-contakt:focus {
-  color: #404bbf;
+  color: var(--color-link);
 }
 
 .main-contain {
@@ -71,7 +76,7 @@ body {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: var(--background-color);
 }
 
 .main-contain-btn {
@@ -81,17 +86,15 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  color: var(--background-color);
   cursor: pointer;
-  background-color: #4d5ae5;
+  background-color: var(--text-logo-color);
 }
 
-/* .main-contain-btn:hover {
-  background-color: #404BBF;
-} */
+
 .main-contain-btn:hover,
 .main-contain-btn:focus {
-  background-color: #404bbf;
+  background-color: var(--color-link);
 }
 
 .advantages-title {
@@ -105,40 +108,42 @@ body {
   font-weight: 500;
   font-size: 20px;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--color-title);
 }
 
 .advantages-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--color-main);
 }
 
 .activity-title {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--color-title);
   text-align: center;
   text-transform: capitalize;
 }
 
+/* Team */
+
 .team {
-  background-color: #f4f4fd;
+  background-color: var(--background-btn-kolor);
 }
 
 .team-title {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--color-title);
   text-align: center;
   text-transform: capitalize;
 }
 
 .team-item {
-  background-color: #ffffff;
+  background-color: var(--background-color);
 }
 
 .team-item-title {
@@ -146,13 +151,13 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--color-title);
 }
 .team-item-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--color-main);
 }
 
 .footer {
@@ -171,39 +176,16 @@ body {
 }
 
 .footer-logo-span {
-  color: #f4f4fd;
+  color: var(--background-btn-kolor);
 }
 
 .footer-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #f4f4fd;
+  color: var(--background-btn-kolor);
 }
 
-/* portfolio */
-
-/* .portfolio-btn-first {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.04em;
-  color: var(--text-logo-color);
-  cursor: pointer;
-  background-color: var(--background-btn-kolor);
-  text-decoration: none; 
-}
-
-.portfolio-btn-first:hover,
-.portfolio-btn-first:focus {
-  color: #FFFFFF;
-  background-color: #404BBF;
-} */
 
 .portfolio-btn {
   font-family: "Roboto", sans-serif;
@@ -219,24 +201,14 @@ body {
   cursor: pointer;
   background-color: var(--background-btn-kolor);
   text-decoration: none; 
-
-  /* font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.04em;
-  color: var(--text-logo-color);
-  cursor: pointer;
-  background-color: var(--background-btn-kolor); */
 }
+
+ 
 
 .portfolio-btn:hover,
 .portfolio-btn:focus {
-  background-color: #404bbf;
-  color: #FFFFFF;
+  background-color: var(--color-link);
+  color: var(--background-color);
 }
 
 .portfolio-list {
@@ -248,16 +220,17 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--color-title);
 }
 
 .portfolio-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--color-main);
 }
 
 .portfolio.link {
   text-decoration: none;
 }
+
